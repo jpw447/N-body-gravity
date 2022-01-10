@@ -1,9 +1,8 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6385273&assignment_repo_type=AssignmentRepo)
-# ScientificComputingProject-jpw447
 # N-body Gravity Simulation (Joe Williams)
 ## Description
 ---
-This is a project creating an gravitational N-body simulation for the 3rd year module "Scientific Computing" as part of my Physics MSci at the University of Nottingham. This was produced over 5 weeks between 15/11/2021 and 17/12/2021.
+This is a project creating an gravitational N-body simulation for the 3rd year module "Scientific Computing" as part of my Physics MSci at the University of Nottingham. This was produced over 5 weeks between 15/11/2021 and 17/12/2021 in a different repository. The project has been re-uploaded here manually for public viewing.
 By studying a system evolving under gravity using Newton's Law of Gravity and Newton's 2nd Law, a system of differential equations can be produced which describe the system well. In the case of 2 bodies, these are analytically solvable for the motion of the bodies in time, whereas for 3 bodies or more, they become analytically solvable. For this reason, numerical integration is required to find a "solution".
 
 For this project, systems of coupled differential equations were found by hand for 2 and 3 body systems, and then solved numerically in Python using the `odeint` module from the `scipy` library. Examples of this can be seen in `Redundant Files/2D Systems/Sun-Earth-Moon System.py`. A solver was then coded to solve any 3D system with N bodies of any period of time, producing the `N_body_simulator.py` library, whose module `N_body_solver` actually solves the system. The documentation can be read in any instance of the `N_body_simulator.py` file in this repository.
